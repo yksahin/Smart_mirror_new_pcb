@@ -1,0 +1,5 @@
+FUNCTIONS.c:16:6:bufclr	24	static
+FUNCTIONS.c:25:6:ESP_Init	96	static
+FUNCTIONS.c:85:6:ESP_GetData_1	152	static
+FUNCTIONS.c:113:6:ESP_GetData_2	152	static
+FUNCTIONS.c:142:6:ESP_GetData_3	152	static
