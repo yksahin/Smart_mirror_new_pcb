@@ -3884,71 +3884,71 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
 .iplt           0x0000000008003e2c        0x0
  .iplt          0x0000000008003e2c        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x0000000008003e2c      0x730
+.rodata         0x0000000008003e2c      0x72c
                 0x0000000008003e2c                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0000000008003e2c      0x13a Core/Src/FUNCTIONS.o
- *fill*         0x0000000008003f66        0x2 
- .rodata        0x0000000008003f68       0xa5 Core/Src/main.o
+ .rodata        0x0000000008003e2c      0x136 Core/Src/FUNCTIONS.o
+ *fill*         0x0000000008003f62        0x2 
+ .rodata        0x0000000008003f64       0xa5 Core/Src/main.o
  *(.rodata*)
- *fill*         0x000000000800400d        0x3 
- .rodata.font1  0x0000000008004010      0x500 Core/Src/MY_ILI9341.o
+ *fill*         0x0000000008004009        0x3 
+ .rodata.font1  0x000000000800400c      0x500 Core/Src/MY_ILI9341.o
  .rodata.AHBPrescTable
-                0x0000000008004510       0x10 Core/Src/system_stm32f4xx.o
-                0x0000000008004510                AHBPrescTable
+                0x000000000800450c       0x10 Core/Src/system_stm32f4xx.o
+                0x000000000800450c                AHBPrescTable
  .rodata.APBPrescTable
-                0x0000000008004520        0x8 Core/Src/system_stm32f4xx.o
-                0x0000000008004520                APBPrescTable
+                0x000000000800451c        0x8 Core/Src/system_stm32f4xx.o
+                0x000000000800451c                APBPrescTable
  .rodata._svfprintf_r.str1.1
-                0x0000000008004528       0x11 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000008004524       0x11 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata._printf_i.str1.1
-                0x0000000008004539       0x22 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000000800455c                . = ALIGN (0x4)
- *fill*         0x000000000800455b        0x1 
+                0x0000000008004535       0x22 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008004558                . = ALIGN (0x4)
+ *fill*         0x0000000008004557        0x1 
 
-.ARM.extab      0x000000000800455c        0x0
-                0x000000000800455c                . = ALIGN (0x4)
+.ARM.extab      0x0000000008004558        0x0
+                0x0000000008004558                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000000800455c                . = ALIGN (0x4)
+                0x0000000008004558                . = ALIGN (0x4)
 
-.ARM            0x000000000800455c        0x8
-                0x000000000800455c                . = ALIGN (0x4)
-                0x000000000800455c                __exidx_start = .
+.ARM            0x0000000008004558        0x8
+                0x0000000008004558                . = ALIGN (0x4)
+                0x0000000008004558                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x000000000800455c        0x8 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
-                0x0000000008004564                __exidx_end = .
-                0x0000000008004564                . = ALIGN (0x4)
+ .ARM.exidx     0x0000000008004558        0x8 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x0000000008004560                __exidx_end = .
+                0x0000000008004560                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000008004564        0x0
- .rel.iplt      0x0000000008004564        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x0000000008004560        0x0
+ .rel.iplt      0x0000000008004560        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.preinit_array  0x0000000008004564        0x0
-                0x0000000008004564                . = ALIGN (0x4)
-                0x0000000008004564                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008004560        0x0
+                0x0000000008004560                . = ALIGN (0x4)
+                0x0000000008004560                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008004564                PROVIDE (__preinit_array_end = .)
-                0x0000000008004564                . = ALIGN (0x4)
+                0x0000000008004560                PROVIDE (__preinit_array_end = .)
+                0x0000000008004560                . = ALIGN (0x4)
 
-.init_array     0x0000000008004564        0x4
-                0x0000000008004564                . = ALIGN (0x4)
-                0x0000000008004564                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008004560        0x4
+                0x0000000008004560                . = ALIGN (0x4)
+                0x0000000008004560                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008004564        0x4 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x0000000008004568                PROVIDE (__init_array_end = .)
-                0x0000000008004568                . = ALIGN (0x4)
+ .init_array    0x0000000008004560        0x4 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0000000008004564                PROVIDE (__init_array_end = .)
+                0x0000000008004564                . = ALIGN (0x4)
 
-.fini_array     0x0000000008004568        0x4
-                0x0000000008004568                . = ALIGN (0x4)
+.fini_array     0x0000000008004564        0x4
+                0x0000000008004564                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008004568        0x4 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x0000000008004564        0x4 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x000000000800456c                . = ALIGN (0x4)
-                0x000000000800456c                _sidata = LOADADDR (.data)
+                0x0000000008004568                . = ALIGN (0x4)
+                0x0000000008004568                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x74 load address 0x000000000800456c
+.data           0x0000000020000000       0x74 load address 0x0000000008004568
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -3976,11 +3976,11 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
                 0x0000000020000074                . = ALIGN (0x4)
                 0x0000000020000074                _edata = .
 
-.igot.plt       0x0000000020000074        0x0 load address 0x00000000080045e0
+.igot.plt       0x0000000020000074        0x0 load address 0x00000000080045dc
  .igot.plt      0x0000000020000074        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 0x0000000020000074                . = ALIGN (0x4)
 
-.bss            0x0000000020000074      0x310 load address 0x00000000080045e0
+.bss            0x0000000020000074      0x310 load address 0x00000000080045dc
                 0x0000000020000074                _sbss = .
                 0x0000000020000074                __bss_start__ = _sbss
  *(.bss)
@@ -4049,7 +4049,7 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
                 0x0000000020000384                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020000384      0x604 load address 0x00000000080045e0
+                0x0000000020000384      0x604 load address 0x00000000080045dc
                 0x0000000020000388                . = ALIGN (0x8)
  *fill*         0x0000000020000384        0x4 
                 [!provide]                        PROVIDE (end = .)

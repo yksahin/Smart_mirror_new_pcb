@@ -160,9 +160,10 @@ void ESP_GetData_3 (char *api_key, char *Total) /*, char *Deaths, char *Recovere
 	Uart_sendstring (local_buf);
 	while (!(Wait_for("SEND OK\r\n")));
 
-	//while (!(Wait_for (":")));
-	while (!(Wait_for (" ")));
-	while (!(Copy_upto ("o", local_buf2)));
+	while (!(Wait_for (":")));
+	//while (!(Wait_for (" ")));
+	//while (!(Copy_upto ("o", local_buf2)));
+	while (!(Copy_upto ("C", local_buf2)));
 
 	len = strlen (local_buf2);
 	snprintf (Total, len,local_buf2);

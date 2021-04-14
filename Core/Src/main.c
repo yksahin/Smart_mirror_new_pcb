@@ -121,8 +121,8 @@ int main(void)
 	  	  ESP_GetData_2("RPGNBG4MTVD5HSAA", string);
 	  	  ILI9341_printText(string, -10, 120, COLOR_WHITE, COLOR_NAVY, 2);
 	  	  ILI9341_printText("Time:",0, 150, COLOR_WHITE, COLOR_NAVY, 3);
-	  	  ESP_GetData_3("CMSM6ZHZ95RWPGMZ", string2);
-	  	  ILI9341_printText(string2, -50, 180, COLOR_WHITE, COLOR_NAVY, 3);
+	  	  ESP_GetData_3("BGFP08OIRF21Y2YG", string2);
+	  	  ILI9341_printText(string2, 0, 180, COLOR_WHITE, COLOR_NAVY, 2);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
