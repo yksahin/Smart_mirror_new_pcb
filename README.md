@@ -4,3 +4,4 @@ This project is named SmartMirror. This is a senior design project for ECE40922.
   - STM32F407VG
   - ESP8266
   - 2.8 Inch TFT ILI9341 by Hiletgo
+# Smart_mirror_new_pcb
